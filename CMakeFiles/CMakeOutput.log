@@ -1,0 +1,360 @@
+The system is: Darwin - 12.2.0 - i386
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3104340330 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3104340330 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec3104340330 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Objects-normal/x86_64/cmTryCompileExec3104340330.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3104340330
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Script-11497E2D85EB4061B03D7560.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3104340330.build/Script-11497E2D85EB4061B03D7560.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3104340330.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3104340330.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3521329847 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3521329847 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Objects-normal/x86_64/CMakeCCompilerABI.o "../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c "/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c" -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec3521329847 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Objects-normal/x86_64/cmTryCompileExec3521329847.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3521329847
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Script-81496EB0201C482A85FEDEA9.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3521329847.build/Script-81496EB0201C482A85FEDEA9.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3521329847.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3521329847.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3571681081 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3571681081 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec3571681081 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Objects-normal/x86_64/cmTryCompileExec3571681081.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3571681081
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Script-B4402E4C49714E8FAD08F55A.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3571681081.build/Script-B4402E4C49714E8FAD08F55A.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3571681081.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3571681081.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3497018253 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3497018253 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o "../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c "/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp" -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec3497018253 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Objects-normal/x86_64/cmTryCompileExec3497018253.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3497018253
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Script-83CFFC2DCF234DD5AF2C8315.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3497018253.build/Script-83CFFC2DCF234DD5AF2C8315.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3497018253.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3497018253.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec488342929 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec488342929 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Objects-normal/x86_64/CheckIncludeFiles.o CheckIncludeFiles.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Objects-normal/x86_64/CheckIncludeFiles.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Objects-normal/x86_64/CheckIncludeFiles.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CheckIncludeFiles.c -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Objects-normal/x86_64/CheckIncludeFiles.o
+
+Ld Debug/cmTryCompileExec488342929 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Objects-normal/x86_64/cmTryCompileExec488342929.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec488342929
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Script-F7986B69F77D4452863B39A1.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec488342929.build/Script-F7986B69F77D4452863B39A1.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec488342929.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec488342929.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4041001118 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec4041001118 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Objects-normal/x86_64/CheckSymbolExists.o CheckSymbolExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Objects-normal/x86_64/CheckSymbolExists.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Objects-normal/x86_64/CheckSymbolExists.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CheckSymbolExists.c -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Objects-normal/x86_64/CheckSymbolExists.o
+
+Ld Debug/cmTryCompileExec4041001118 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Objects-normal/x86_64/cmTryCompileExec4041001118.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4041001118
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Script-84603D95FEAD4B0A9560ED87.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4041001118.build/Script-84603D95FEAD4B0A9560ED87.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec4041001118.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec4041001118.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+File /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_GCC_BUILTINS succeded with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec850009203 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec850009203 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -D_OPENTHREADS_ATOMIC_USE_GCC_BUILTINS -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Objects-normal/x86_64/src.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/src.cxx -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTryCompileExec850009203 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Objects-normal/x86_64/cmTryCompileExec850009203.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec850009203
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Script-609DDD5291604C4385F3AD9E.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec850009203.build/Script-609DDD5291604C4385F3AD9E.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec850009203.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec850009203.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+Return value: 1
+Source file was:
+
+    #include <cstdlib>
+
+    int main()
+    {
+       unsigned value = 0;
+       void* ptr = &value;
+       __sync_add_and_fetch(&value, 1);
+       __sync_synchronize();
+       __sync_sub_and_fetch(&value, 1);
+       if (!__sync_bool_compare_and_swap(&value, 0, 1))
+          return EXIT_FAILURE;
+
+       if (!__sync_bool_compare_and_swap(&ptr, ptr, ptr))
+          return EXIT_FAILURE;
+
+       return EXIT_SUCCESS;
+    }
+    
+Performing C++ SOURCE FILE Test _OPENTHREADS_ATOMIC_USE_BSD_ATOMIC succeded with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2437507169 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2437507169 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -D_OPENTHREADS_ATOMIC_USE_BSD_ATOMIC -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Objects-normal/x86_64/src.dia -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/src.cxx -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTryCompileExec2437507169 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Objects-normal/x86_64/cmTryCompileExec2437507169.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2437507169
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Script-BA0303B44B77472CA3209655.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2437507169.build/Script-BA0303B44B77472CA3209655.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2437507169.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2437507169.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+Return value: 1
+Source file was:
+
+    #include <libkern/OSAtomic.h>
+
+    int main()
+    {
+      volatile int32_t value = 0;
+      long data = 0;
+      long * volatile ptr = &data;
+
+      OSAtomicIncrement32(&value);
+      OSMemoryBarrier();
+      OSAtomicDecrement32(&value);
+      OSAtomicCompareAndSwapInt(value, 1, &value);
+      OSAtomicCompareAndSwapPtr(ptr, ptr, (void * volatile *)&ptr);
+    }
+    
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4021950721 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec4021950721 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=sched_yield -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec4021950721 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Objects-normal/x86_64/cmTryCompileExec4021950721.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4021950721
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Script-83FE1DE0FE2948B29A073191.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec4021950721.build/Script-83FE1DE0FE2948B29A073191.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec4021950721.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec4021950721.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function pthread_setconcurrency exists passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2700562592 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2700562592 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=pthread_setconcurrency -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec2700562592 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Objects-normal/x86_64/cmTryCompileExec2700562592.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2700562592
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Script-D07905D4A7F94D89949353F7.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2700562592.build/Script-D07905D4A7F94D89949353F7.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2700562592.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2700562592.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function pthread_getconcurrency exists passed with the following output:
+Change Dir: /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-9.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec197332255 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec197332255 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Objects-normal/x86_64/CheckFunctionExists.o "../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/DerivedSources/x86_64 -I/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=pthread_getconcurrency -MMD -MT dependencies -MF /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Objects-normal/x86_64/CheckFunctionExists.dia -c "/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/../../../../../../../../Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTryCompileExec197332255 normal x86_64
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -F/Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug -filelist /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Objects-normal/x86_64/cmTryCompileExec197332255.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec197332255
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Script-F04C26AF90DF4A818B2C9E58.sh
+    cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec197332255.build/Script-F04C26AF90DF4A818B2C9E58.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp && make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec197332255.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec197332255.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
