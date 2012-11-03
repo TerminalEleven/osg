@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Core.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>94</integer>
+		</dict>
 		<key>OpenThreads.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>SkyView Essentials.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>95</integer>
 		</dict>
 		<key>ZERO_CHECK.xcscheme</key>
 		<dict>
@@ -573,6 +583,16 @@
 			<true/>
 		</dict>
 		<key>3FDA0793487D48C3ABD8F36B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>410B7BFE1644C0E80047404C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>410B7C2C1644C77A0047404C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
