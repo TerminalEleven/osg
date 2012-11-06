@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "410B7C2C1644C77A0047404C"
-               BuildableName = "SkyView Essentials"
+               BuildableName = "iOS Essentials"
                BlueprintName = "iOS Essentials"
                ReferencedContainer = "container:OpenSceneGraph.xcodeproj">
             </BuildableReference>
