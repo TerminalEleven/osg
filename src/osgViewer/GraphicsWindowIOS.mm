@@ -537,7 +537,7 @@ typedef std::map<void*, unsigned int> TouchPointsIdMapping;
     {
         
         UITouch *touch = [[allTouches allObjects] objectAtIndex:i];
-        CGPoint pos = [touch locationInView:touch.view];
+        CGPoint pos = [touch locationInView:self];
         osg::Vec2 pixelPos = [self convertPointToPixel: osg::Vec2(pos.x,pos.y)];
         unsigned int touch_id = [self computeTouchId: touch];
         
@@ -559,7 +559,7 @@ typedef std::map<void*, unsigned int> TouchPointsIdMapping;
     for(int i=0; i<[allTouches count]; i++)
     {
         UITouch *touch = [[allTouches allObjects] objectAtIndex:i];
-        CGPoint pos = [touch locationInView:touch.view];
+        CGPoint pos = [touch locationInView:self];
         osg::Vec2 pixelPos = [self convertPointToPixel: osg::Vec2(pos.x,pos.y)];
         unsigned int touch_id = [self computeTouchId: touch];
 
@@ -583,7 +583,7 @@ typedef std::map<void*, unsigned int> TouchPointsIdMapping;
     for(int i=0; i<[allTouches count]; i++)
     {
         UITouch *touch = [[allTouches allObjects] objectAtIndex:i];
-        CGPoint pos = [touch locationInView:touch.view];
+        CGPoint pos = [touch locationInView:self];
         osg::Vec2 pixelPos = [self convertPointToPixel: osg::Vec2(pos.x,pos.y)];
         unsigned int touch_id = [self computeTouchId: touch];
         if (!osg_event) {

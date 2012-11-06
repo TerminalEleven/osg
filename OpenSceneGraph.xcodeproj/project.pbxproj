@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		0AC033DFD32642F38AF49178 /* install */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3E24DF5381204FD8874CC8AF /* Build configuration list for PBXAggregateTarget "install" */;
-			buildPhases = (
-				BE827AF9225C44B1BCC39123 /* CMake PostBuild Rules */,
-			);
-			dependencies = (
-				150119D820C94DC7A0B39450 /* PBXTargetDependency */,
-			);
-			name = install;
-			productName = install;
-		};
 		410B7BFE1644C0E80047404C /* Core */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 410B7BFF1644C0E80047404C /* Build configuration list for PBXAggregateTarget "Core" */;
@@ -134,7 +122,6 @@
 				98F6D1CDD99A4AE589CC89EE /* PBXTargetDependency */,
 				5B6A9084CEFF4C18AF629066 /* PBXTargetDependency */,
 				0E523C0A6CB24F59BC899620 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				07974269D9BE41E39B87AE49 /* PBXTargetDependency */,
 				EBA0B8E4A3EF4DEEA57E1461 /* PBXTargetDependency */,
 				C7087717875C48E296D84059 /* PBXTargetDependency */,
@@ -165,29 +152,6 @@
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
-		};
-		DB52DDBC01F14C1DB1CBFDA3 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = FEDA397CEC3E418E91C84A69 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				8C268763329A45D8B3F19053 /* CMake Rules */,
-			);
-			dependencies = (
-			);
-			name = ZERO_CHECK;
-			productName = ZERO_CHECK;
-		};
-		F6354AB43CB8497899FE8213 /* uninstall */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 583C5AD523E2447F89199D2B /* Build configuration list for PBXAggregateTarget "uninstall" */;
-			buildPhases = (
-				4657E31506864C338050E7C7 /* CMake Rules */,
-			);
-			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
-			);
-			name = uninstall;
-			productName = uninstall;
 		};
 /* End PBXAggregateTarget section */
 
@@ -2068,13 +2032,6 @@
 			remoteGlobalIDString = F44928126280486AB565EACF;
 			remoteInfo = osgdb_ktx;
 		};
-		BAB34682E7E6475AB36E61F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5A428061B724EFDACDF6D9A;
-			remoteInfo = ALL_BUILD;
-		};
 		BDC81D1EBF854047A8CB82B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
@@ -2200,13 +2157,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 78C196598E33446A8CA6B5AE;
 			remoteInfo = osgdb_pic;
-		};
-		E15C45008B4F461CA962A03D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB52DDBC01F14C1DB1CBFDA3;
-			remoteInfo = ZERO_CHECK;
 		};
 		E1D406AABF2141B7BF421365 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -8762,7 +8712,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8783,7 +8732,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8805,7 +8753,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8826,7 +8773,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8847,7 +8793,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -8869,7 +8814,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8892,7 +8836,6 @@
 			);
 			dependencies = (
 				9FD43E7C52AE40AA9317E264 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8914,7 +8857,6 @@
 			);
 			dependencies = (
 				86EB7051C2AD422E93BA7D1A /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8935,7 +8877,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8956,7 +8897,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -8978,7 +8918,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -8999,7 +8938,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9020,7 +8958,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9042,7 +8979,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9063,7 +8999,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9084,7 +9019,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9100,12 +9034,10 @@
 			buildConfigurationList = ABEAED6D0C1049A2938E44E1 /* Build configuration list for PBXNativeTarget "osgManipulator" */;
 			buildPhases = (
 				3B8AD1D85E9046ABB2245180 /* Sources */,
-				47CC0D206C7B4D4EA0FF6046 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9122,12 +9054,10 @@
 			buildConfigurationList = B36D891584094BE9BE8FD591 /* Build configuration list for PBXNativeTarget "osgGA" */;
 			buildPhases = (
 				27C9A1F07CE04EA6ABD9E6C5 /* Sources */,
-				B9C562DCBFDB4100B2479456 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9148,7 +9078,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9170,7 +9099,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9192,7 +9120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9214,7 +9141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9235,7 +9161,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -9257,7 +9182,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9279,7 +9203,6 @@
 			);
 			dependencies = (
 				5366868A8E55442691E4B328 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9300,7 +9223,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9322,7 +9244,6 @@
 			);
 			dependencies = (
 				5366868A8E55442691E4B328 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9344,7 +9265,6 @@
 			);
 			dependencies = (
 				9FD43E7C52AE40AA9317E264 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9360,12 +9280,10 @@
 			buildConfigurationList = 6AF7506BDF2E4B298090813A /* Build configuration list for PBXNativeTarget "osgWidget" */;
 			buildPhases = (
 				D1FA396C290E4A4898D01E70 /* Sources */,
-				AC470B51F97E4B7F8F15DD28 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
@@ -9383,12 +9301,10 @@
 			buildConfigurationList = 4EA195022DA841A180AC766E /* Build configuration list for PBXNativeTarget "osgVolume" */;
 			buildPhases = (
 				B0FB96673C704861A8FD5434 /* Sources */,
-				0CB2BDE4F7524D32A7F83B96 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -9411,7 +9327,6 @@
 			);
 			dependencies = (
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9432,7 +9347,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9453,7 +9367,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9474,7 +9387,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9496,7 +9408,6 @@
 			);
 			dependencies = (
 				86EB7051C2AD422E93BA7D1A /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9512,12 +9423,10 @@
 			buildConfigurationList = A3ED2137CA1340E383828753 /* Build configuration list for PBXNativeTarget "osgShadow" */;
 			buildPhases = (
 				4AC085ED3671465E99B67618 /* Sources */,
-				DFCAA0FE6CDC41269AFD3B9F /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9538,7 +9447,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9560,7 +9468,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9576,13 +9483,11 @@
 			buildConfigurationList = A2C79195B1954A06B300B027 /* Build configuration list for PBXNativeTarget "osgPresentation" */;
 			buildPhases = (
 				BBF30D53ECE743C687C0E6E1 /* Sources */,
-				4C920D3A578F43C8852973FD /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				3BD7FD23E0E14CE8B3A43A24 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
@@ -9610,7 +9515,6 @@
 			dependencies = (
 				86EB7051C2AD422E93BA7D1A /* PBXTargetDependency */,
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9631,7 +9535,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -9653,7 +9556,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9676,7 +9578,6 @@
 			dependencies = (
 				3BD7FD23E0E14CE8B3A43A24 /* PBXTargetDependency */,
 				1BC9870FF4334BFCBD08D847 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
@@ -9702,7 +9603,6 @@
 			);
 			dependencies = (
 				3BD7FD23E0E14CE8B3A43A24 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9723,7 +9623,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9744,7 +9643,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9761,12 +9659,10 @@
 			buildConfigurationList = B8BCD4C3610043AF9896D623 /* Build configuration list for PBXNativeTarget "osg" */;
 			buildPhases = (
 				24CBDD687AA6418F8E8E99F2 /* Sources */,
-				016A6E2D01BC45FF8D625598 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
 			);
 			name = osg;
@@ -9779,12 +9675,10 @@
 			buildConfigurationList = 4E4F1C8D23144EC4BD502679 /* Build configuration list for PBXNativeTarget "osgUtil" */;
 			buildPhases = (
 				A27B50424E074597A3C3A2B2 /* Sources */,
-				3BDED36035AF4FD8975D5B87 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
 			);
@@ -9803,7 +9697,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9824,7 +9717,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9845,7 +9737,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9861,12 +9752,10 @@
 			buildConfigurationList = 5893523ACC834363A563C78D /* Build configuration list for PBXNativeTarget "OpenThreads" */;
 			buildPhases = (
 				132621E15C124F3EB5BF6987 /* Sources */,
-				40AD9273EDF04919AC560B90 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 			);
 			name = OpenThreads;
 			productName = OpenThreads;
@@ -9883,7 +9772,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9905,7 +9793,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9926,7 +9813,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9942,12 +9828,10 @@
 			buildConfigurationList = FE40E6866BCB4BAF96A04554 /* Build configuration list for PBXNativeTarget "osgParticle" */;
 			buildPhases = (
 				B0A6068E93714CBFBE14A038 /* Sources */,
-				966AFB4500E44B1EAB797846 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -9971,7 +9855,6 @@
 				3BD7FD23E0E14CE8B3A43A24 /* PBXTargetDependency */,
 				86EB7051C2AD422E93BA7D1A /* PBXTargetDependency */,
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -9995,7 +9878,6 @@
 			);
 			dependencies = (
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10017,7 +9899,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10039,7 +9920,6 @@
 			);
 			dependencies = (
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10055,12 +9935,10 @@
 			buildConfigurationList = 471D052E21004DB0BCE492FC /* Build configuration list for PBXNativeTarget "osgAnimation" */;
 			buildPhases = (
 				3D4FC51086194FCB9D5FC6C2 /* Sources */,
-				0F9FCF1F1BF04DAEBA6A9E04 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10082,7 +9960,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10103,7 +9980,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10119,12 +9995,10 @@
 			buildConfigurationList = 42A9412E3C5749C98615D3C8 /* Build configuration list for PBXNativeTarget "osgViewer" */;
 			buildPhases = (
 				08F3D0D93FCA45D1AB5D5A8C /* Sources */,
-				271F2B45F8CE44C49591141C /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				09CB37DAEB7943209D0D8B3D /* PBXTargetDependency */,
@@ -10147,7 +10021,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10163,12 +10036,10 @@
 			buildConfigurationList = 63B13C21DFCC41249B284271 /* Build configuration list for PBXNativeTarget "osgFX" */;
 			buildPhases = (
 				AD96FC429DF443FF99192E89 /* Sources */,
-				A7F59B672D43487D9A216BEA /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10190,7 +10061,6 @@
 			);
 			dependencies = (
 				6AA1E656092A49A7A157B59F /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10211,7 +10081,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10227,12 +10096,10 @@
 			buildConfigurationList = 6458E28D788C4403A4AA2E47 /* Build configuration list for PBXNativeTarget "osgTerrain" */;
 			buildPhases = (
 				A824A956A50848C69EAD594A /* Sources */,
-				0C3892B94BF445F5B3710906 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10253,7 +10120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10275,7 +10141,6 @@
 			);
 			dependencies = (
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10297,7 +10162,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10318,7 +10182,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10335,12 +10198,10 @@
 			buildConfigurationList = 9BC4B8D6D6E04970BC49C750 /* Build configuration list for PBXNativeTarget "osgSim" */;
 			buildPhases = (
 				7434CE1C1B004C9EA24E0381 /* Sources */,
-				A3A894FA73EC4C219DAF178E /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10363,7 +10224,6 @@
 			);
 			dependencies = (
 				1228B69F400B484DA7A0BE4D /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10379,12 +10239,10 @@
 			buildConfigurationList = 85835CBA94D04B489DB350B9 /* Build configuration list for PBXNativeTarget "osgText" */;
 			buildPhases = (
 				D4719E97E4614ECAB216668D /* Sources */,
-				9679F6B4B520456AB448383E /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10406,7 +10264,6 @@
 			);
 			dependencies = (
 				3BD7FD23E0E14CE8B3A43A24 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10427,7 +10284,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10443,12 +10299,10 @@
 			buildConfigurationList = 676AD457D197478DB343A741 /* Build configuration list for PBXNativeTarget "osgDB" */;
 			buildPhases = (
 				69177AE6A55D45AC95D34E8E /* Sources */,
-				26852BA5B88E4422BA6DB25D /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
 				969CD422EE704AE88761C1CE /* PBXTargetDependency */,
@@ -10469,7 +10323,6 @@
 			);
 			dependencies = (
 				86EB7051C2AD422E93BA7D1A /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10490,7 +10343,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10511,7 +10363,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10532,7 +10383,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10554,7 +10404,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				D0EBB525EC684DEFBD6C456F /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
@@ -10576,7 +10425,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10597,7 +10445,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10618,7 +10465,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10639,7 +10485,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10661,7 +10506,6 @@
 			);
 			dependencies = (
 				5366868A8E55442691E4B328 /* PBXTargetDependency */,
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10682,7 +10526,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */,
 				119D28FEB1044351917E58F5 /* PBXTargetDependency */,
 				0F25A654745440EFA6D101DE /* PBXTargetDependency */,
 				710411D32B7A41689E62B98A /* PBXTargetDependency */,
@@ -10712,11 +10555,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				410B7C2C1644C77A0047404C /* SkyView Essentials */,
 				410B7BFE1644C0E80047404C /* Core */,
 				D5A428061B724EFDACDF6D9A /* ALL_BUILD */,
-				DB52DDBC01F14C1DB1CBFDA3 /* ZERO_CHECK */,
-				0AC033DFD32642F38AF49178 /* install */,
-				F6354AB43CB8497899FE8213 /* uninstall */,
 				89C5395AF2AC4358BA1CA82C /* OpenThreads */,
 				80916DC7D35F4DD5BBAB0F5C /* osg */,
 				E3BFFB60AF904713924B7CEE /* osgDB */,
@@ -10742,11 +10583,11 @@
 				5374D5A76EF04724AA824104 /* osgdb_serializers_osgsim */,
 				4D35AA0F4A094FCC985B3C42 /* osgdb_serializers_osgshadow */,
 				0819DA91F4AD4776BF70477E /* osgdb_serializers_osgga */,
-				643D17A51AAA42338CB4D63C /* osgdb_serializers_osgterrain */,
 				22CD85516696434F9EBE9B95 /* osgdb_serializers_osgtext */,
 				DED4EB673DE243199E6D4F9D /* osgdb_serializers_osgvolume */,
 				243A7E3E731743698E284EFF /* osgdb_deprecated_osg */,
 				5070A67552BB45748EFA0971 /* osgdb_deprecated_osgparticle */,
+				643D17A51AAA42338CB4D63C /* osgdb_serializers_osgterrain */,
 				44F8E78E767043309749C203 /* osgdb_deprecated_osganimation */,
 				7D913E361177450F92A71CC0 /* osgdb_deprecated_osgfx */,
 				A717183F163F4F23BAF1247C /* osgdb_deprecated_osgsim */,
@@ -10807,23 +10648,11 @@
 				62B8553A054C4457800F5403 /* osgdb_imageio */,
 				F1CE96E76BD64A57AA745CFD /* osgdb_freetype */,
 				2C5FDAF1A06947E7AF31B11E /* osgdb_pvr */,
-				410B7C2C1644C77A0047404C /* SkyView Essentials */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		016A6E2D01BC45FF8D625598 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osg -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osg/CMakeScripts/osg_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		02BC5B1421D44937A438A72D /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -10868,28 +10697,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		0C3892B94BF445F5B3710906 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgTerrain -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgTerrain/CMakeScripts/osgTerrain_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		0CB2BDE4F7524D32A7F83B96 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgVolume -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgVolume/CMakeScripts/osgVolume_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		0D998F120D9646EBBDEB6D21 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -10923,17 +10730,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgVolume -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeScripts/osgdb_deprecated_osgvolume_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		0F9FCF1F1BF04DAEBA6A9E04 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgAnimation -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgAnimation/CMakeScripts/osgAnimation_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		11232EB38BAE459EB92F5BB6 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -10965,28 +10761,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/dw -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/dw/CMakeScripts/osgdb_dw_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		26852BA5B88E4422BA6DB25D /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgDB -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgDB/CMakeScripts/osgDB_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		271F2B45F8CE44C49591141C /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgViewer -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgViewer/CMakeScripts/osgViewer_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		29B669C0DD204EE197342038 /* CMake PostBuild Rules */ = {
@@ -11088,17 +10862,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgShadow -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgShadow/CMakeScripts/osgdb_deprecated_osgshadow_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		3BDED36035AF4FD8975D5B87 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgUtil -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgUtil/CMakeScripts/osgUtil_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		3DD0BD3BB64D453BBCD01E1F /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11108,17 +10871,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/view -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/view/CMakeScripts/osgdb_osgviewer_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		40AD9273EDF04919AC560B90 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/OpenThreads/pthreads -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/OpenThreads/pthreads/CMakeScripts/OpenThreads_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		43BD9FB743EC4FA98A5B1020 /* CMake PostBuild Rules */ = {
@@ -11141,28 +10893,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/scale -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/scale/CMakeScripts/osgdb_scale_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		4657E31506864C338050E7C7 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		47CC0D206C7B4D4EA0FF6046 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgManipulator -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgManipulator/CMakeScripts/osgManipulator_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		4A5547D876C346119B479D1C /* CMake PostBuild Rules */ = {
@@ -11196,17 +10926,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/x -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/x/CMakeScripts/osgdb_x_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		4C920D3A578F43C8852973FD /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPresentation -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPresentation/CMakeScripts/osgPresentation_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		537833340351456ABBE972B1 /* CMake PostBuild Rules */ = {
@@ -11308,17 +11027,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation/CMakeScripts/osgdb_serializers_osganimation_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		8C268763329A45D8B3F19053 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		8F7B7DCA53D04C8B84667E64 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11350,28 +11058,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume/CMakeScripts/osgdb_serializers_osgvolume_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		966AFB4500E44B1EAB797846 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgParticle -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgParticle/CMakeScripts/osgParticle_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		9679F6B4B520456AB448383E /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgText -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgText/CMakeScripts/osgText_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		9695A2EF4B4F45E48BF303AD /* CMake PostBuild Rules */ = {
@@ -11440,17 +11126,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/freetype -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/freetype/CMakeScripts/osgdb_freetype_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		A3A894FA73EC4C219DAF178E /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgSim -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgSim/CMakeScripts/osgSim_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		A401CC65A5924BC5A018C72D /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11473,17 +11148,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/lws -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/lws/CMakeScripts/osgdb_lws_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		A7F59B672D43487D9A216BEA /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgFX -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgFX/CMakeScripts/osgFX_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		A840B04E27CC44DF85117501 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11493,17 +11157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/logo -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/logo/CMakeScripts/osgdb_logo_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		AC470B51F97E4B7F8F15DD28 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWidget -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWidget/CMakeScripts/osgWidget_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		ACD374A21EC640E0BF0B77EA /* CMake PostBuild Rules */ = {
@@ -11583,17 +11236,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/dxf -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/dxf/CMakeScripts/osgdb_dxf_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		B9C562DCBFDB4100B2479456 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgGA -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgGA/CMakeScripts/osgGA_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		BDA7B7EBB2B8465E8C1461DA /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11614,17 +11256,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA/CMakeScripts/osgdb_serializers_osgga_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		BE827AF9225C44B1BCC39123 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		C2755DD516A644B984692C9D /* CMake PostBuild Rules */ = {
@@ -11724,17 +11355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator/CMakeScripts/osgdb_serializers_osgmanipulator_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		DFCAA0FE6CDC41269AFD3B9F /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgShadow -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgShadow/CMakeScripts/osgShadow_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		E02B4DE517644E34BE78F012 /* CMake PostBuild Rules */ = {
@@ -13814,11 +13434,6 @@
 			target = D80C90BDB1E8494CB2B0BDE9 /* osgdb_openflight */;
 			targetProxy = 63AB4374A0754B8491D2EB02 /* PBXContainerItemProxy */;
 		};
-		150119D820C94DC7A0B39450 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D5A428061B724EFDACDF6D9A /* ALL_BUILD */;
-			targetProxy = BAB34682E7E6475AB36E61F1 /* PBXContainerItemProxy */;
-		};
 		16DDC5DA4519487B97896228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 08D30E6014F648D186C13607 /* osgdb_lwo */;
@@ -14298,11 +13913,6 @@
 			isa = PBXTargetDependency;
 			target = FDBF94F022A74B0BBB66BB36 /* osgdb_rot */;
 			targetProxy = 9028755A0F6346C18EDBDD36 /* PBXContainerItemProxy */;
-		};
-		DEAAF38CBCB54FFB9B177FAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DB52DDBC01F14C1DB1CBFDA3 /* ZERO_CHECK */;
-			targetProxy = E15C45008B4F461CA962A03D /* PBXContainerItemProxy */;
 		};
 		E3E65D589CD14FA184138D7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -15194,36 +14804,6 @@
 				);
 			};
 			name = MinSizeRel;
-		};
-		0E22599FAEA54337A546B168 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = RelWithDebInfo;
 		};
 		0EFEA26628554E5894880965 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
@@ -17829,36 +17409,6 @@
 			};
 			name = Release;
 		};
-		336C172A895E433BB1CE797D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = MinSizeRel;
-		};
 		33791DE55FCA454895648219 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -18984,36 +18534,6 @@
 				);
 			};
 			name = RelWithDebInfo;
-		};
-		419E263EBCD7446BA2361D05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Debug;
 		};
 		41A9311833C24C3F9D4F32DC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -20841,36 +20361,6 @@
 			};
 			name = MinSizeRel;
 		};
-		5FDDD5AF5A70454786659324 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Debug;
-		};
 		601EC607D701412BBB46AE85 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -21734,36 +21224,6 @@
 			};
 			name = Release;
 		};
-		6F07265F1D62463BA10F91D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Release;
-		};
 		6F426D4F5D564E14BB20F986 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -21842,36 +21302,6 @@
 				WARNING_CFLAGS = "";
 			};
 			name = Debug;
-		};
-		7191D5C658684ABDA5F6F4A4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = RelWithDebInfo;
 		};
 		74D09EAE282142BA80A5340A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -22175,36 +21605,6 @@
 				);
 			};
 			name = Release;
-		};
-		79E82C5D344E4E8FA666A138 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = MinSizeRel;
 		};
 		7A02B722706D4BAD92848590 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -25078,36 +24478,6 @@
 			};
 			name = Release;
 		};
-		A862EC46E7464E61999DAB29 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = RelWithDebInfo;
-		};
 		A886E56C7356451DBF275949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -25646,36 +25016,6 @@
 			};
 			name = Release;
 		};
-		B0F21840DD924DBA8DE0E6DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Release;
-		};
 		B1D3C16CF6D548B1BE07E5CA /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -25868,36 +25208,6 @@
 			};
 			name = Release;
 		};
-		B3765C33494943F194FE126F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Debug;
-		};
 		B3E29CCBD5FA4ABFBFC436A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -25980,36 +25290,6 @@
 				PRODUCT_NAME = osgdb_txfs;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/txf";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = MinSizeRel;
-		};
-		B5A2AB1AA92D439393D3DE0F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -27573,36 +26853,6 @@
 				);
 			};
 			name = RelWithDebInfo;
-		};
-		D1EAA3A01FF944129C1A9A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Release;
 		};
 		D1F1C1C6DF8A467988D367D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -30246,17 +29496,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3E24DF5381204FD8874CC8AF /* Build configuration list for PBXAggregateTarget "install" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				419E263EBCD7446BA2361D05 /* Debug */,
-				D1EAA3A01FF944129C1A9A0E /* Release */,
-				B5A2AB1AA92D439393D3DE0F /* MinSizeRel */,
-				A862EC46E7464E61999DAB29 /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		410B7BFF1644C0E80047404C /* Build configuration list for PBXAggregateTarget "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -30363,17 +29602,6 @@
 				0C396D1AF4F748F49B088820 /* Release */,
 				8E7695C5BB42450CB3D41945 /* MinSizeRel */,
 				31A3F5889FA24D25835D270D /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		583C5AD523E2447F89199D2B /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3765C33494943F194FE126F /* Debug */,
-				6F07265F1D62463BA10F91D1 /* Release */,
-				79E82C5D344E4E8FA666A138 /* MinSizeRel */,
-				7191D5C658684ABDA5F6F4A4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -31155,17 +30383,6 @@
 				540977C7C1364EB5BD80F19A /* Release */,
 				40590187DE6F4F8089FAE312 /* MinSizeRel */,
 				0160E3BD549844EA941B95DB /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		FEDA397CEC3E418E91C84A69 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FDDD5AF5A70454786659324 /* Debug */,
-				B0F21840DD924DBA8DE0E6DB /* Release */,
-				336C172A895E433BB1CE797D /* MinSizeRel */,
-				0E22599FAEA54337A546B168 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
