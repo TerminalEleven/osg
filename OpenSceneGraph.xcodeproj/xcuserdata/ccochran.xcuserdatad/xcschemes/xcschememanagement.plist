@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Serializers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>97</integer>
+		</dict>
 		<key>SkyView Essentials.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -603,6 +608,11 @@
 			<true/>
 		</dict>
 		<key>417890F093144CA8AE17BACF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41A60C99164B508700F2A9CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -41,6 +41,7 @@
 			);
 			dependencies = (
 				410B7C331644C7B80047404C /* PBXTargetDependency */,
+				41A60CB6164B50C300F2A9CE /* PBXTargetDependency */,
 				410B7C3B1644C7E10047404C /* PBXTargetDependency */,
 				410B7C431644C7F90047404C /* PBXTargetDependency */,
 				410B7C3D1644C7E10047404C /* PBXTargetDependency */,
@@ -51,6 +52,27 @@
 			);
 			name = "iOS Essentials";
 			productName = "SkyView Essentials";
+		};
+		41A60C99164B508700F2A9CE /* Serializers */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41A60C9A164B508700F2A9CE /* Build configuration list for PBXAggregateTarget "Serializers" */;
+			buildPhases = (
+			);
+			dependencies = (
+				41A60CA0164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CA2164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CA4164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CA6164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CA8164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CAA164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CAC164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CAE164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CB0164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CB2164B50A900F2A9CE /* PBXTargetDependency */,
+				41A60CB4164B50A900F2A9CE /* PBXTargetDependency */,
+			);
+			name = Serializers;
+			productName = Serializers;
 		};
 		D5A428061B724EFDACDF6D9A /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
@@ -1744,6 +1766,90 @@
 			proxyType = 1;
 			remoteGlobalIDString = E8C911DE90584444801A4CEC;
 			remoteInfo = osgdb_3ds;
+		};
+		41A60C9F164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0042D3CEC4B4E35B20EDCC2;
+			remoteInfo = osgdb_serializers_osg;
+		};
+		41A60CA1164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B7007A0B794917AC588E80;
+			remoteInfo = osgdb_serializers_osganimation;
+		};
+		41A60CA3164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01A620D4673544C99FCA1999;
+			remoteInfo = osgdb_serializers_osgfx;
+		};
+		41A60CA5164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDA0793487D48C3ABD8F36B;
+			remoteInfo = osgdb_serializers_osgmanipulator;
+		};
+		41A60CA7164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F5865ABC294783A7FC9713;
+			remoteInfo = osgdb_serializers_osgparticle;
+		};
+		41A60CA9164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5374D5A76EF04724AA824104;
+			remoteInfo = osgdb_serializers_osgsim;
+		};
+		41A60CAB164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D35AA0F4A094FCC985B3C42;
+			remoteInfo = osgdb_serializers_osgshadow;
+		};
+		41A60CAD164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0819DA91F4AD4776BF70477E;
+			remoteInfo = osgdb_serializers_osgga;
+		};
+		41A60CAF164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CD85516696434F9EBE9B95;
+			remoteInfo = osgdb_serializers_osgtext;
+		};
+		41A60CB1164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED4EB673DE243199E6D4F9D;
+			remoteInfo = osgdb_serializers_osgvolume;
+		};
+		41A60CB3164B50A900F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643D17A51AAA42338CB4D63C;
+			remoteInfo = osgdb_serializers_osgterrain;
+		};
+		41A60CB5164B50C300F2A9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C46C726594D3EA3541071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A60C99164B508700F2A9CE;
+			remoteInfo = Serializers;
 		};
 		41D85037483546B99E54EF77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -8727,7 +8833,6 @@
 			buildConfigurationList = C22142F05F304D028A4D2875 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgfx" */;
 			buildPhases = (
 				71A5FBB71D234E3096EACBD5 /* Sources */,
-				066501C7A3B14C748E7CBF82 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -8788,7 +8893,6 @@
 			buildConfigurationList = 872F83F7C2534E38924719E9 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgga" */;
 			buildPhases = (
 				3FA73D5271FA4669A6153DD1 /* Sources */,
-				BE2A3AFCA4934E4B90F7D94F /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -8830,7 +8934,6 @@
 			buildConfigurationList = AB2BCADB752D40B98F700176 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgparticle" */;
 			buildPhases = (
 				E8BF86EE875E4B61BCCF1656 /* Sources */,
-				E285434147074AEB8490B29F /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -8851,7 +8954,6 @@
 			buildConfigurationList = 2FC8097FA0494C72924541F9 /* Build configuration list for PBXNativeTarget "osgdb_deprecated_osgterrain" */;
 			buildPhases = (
 				767406D31BBA4A4E83AF6F2B /* Sources */,
-				4B8D8CDEB9FE4865BED03CEF /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -8892,7 +8994,6 @@
 			buildConfigurationList = 8D1F86A1FF534BC6B828689A /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgtext" */;
 			buildPhases = (
 				96B4ABC98BA047CFADDD1450 /* Sources */,
-				35C65EA19BEA45C9B5A7292F /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9073,7 +9174,6 @@
 			buildConfigurationList = 644C863259134A5CB8FAF037 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgmanipulator" */;
 			buildPhases = (
 				AFE8B146FEAD4DAFA6DA011C /* Sources */,
-				DCFD8906308C436895CD7387 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9196,7 +9296,6 @@
 			buildConfigurationList = E782022923A74CAD854BE6DF /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgshadow" */;
 			buildPhases = (
 				81652170CC354C1CA2CF415C /* Sources */,
-				7152BD578762423691B7D895 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9320,7 +9419,6 @@
 			buildConfigurationList = 6A6CA90E3B784A048D057C27 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgsim" */;
 			buildPhases = (
 				7C9DE64AEE95469F94F4ABCB /* Sources */,
-				076B83F3589A4A53B1BFCBF4 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9400,7 +9498,6 @@
 			buildConfigurationList = 8493EB6A381C4270961FBADB /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgterrain" */;
 			buildPhases = (
 				F6DA49CF4E20447ABEF375FD /* Sources */,
-				D4F3748899144D03844DBC48 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9440,7 +9537,6 @@
 			buildConfigurationList = 087903DC79444230874A3FD5 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osganimation" */;
 			buildPhases = (
 				9DC381AD543F4C5CB820DF4A /* Sources */,
-				7FA078257268413F82585FA8 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -9952,7 +10048,6 @@
 			buildConfigurationList = F4C3B6DF83B742F7977FEFA9 /* Build configuration list for PBXNativeTarget "osgdb_serializers_osg" */;
 			buildPhases = (
 				48EB873F18C643DBBC8C2A53 /* Sources */,
-				B49BAAA9C9CA432EA79E7EB9 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -10253,7 +10348,6 @@
 			buildConfigurationList = C4FE3B7FF6D044B39CC621EC /* Build configuration list for PBXNativeTarget "osgdb_serializers_osgvolume" */;
 			buildPhases = (
 				06B54D706E3243B695111943 /* Sources */,
-				93EA2BD3EF7E43ACA587933C /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -10550,6 +10644,7 @@
 			targets = (
 				410B7C2C1644C77A0047404C /* iOS Essentials */,
 				410B7BFE1644C0E80047404C /* Core */,
+				41A60C99164B508700F2A9CE /* Serializers */,
 				D5A428061B724EFDACDF6D9A /* ALL_BUILD */,
 				89C5395AF2AC4358BA1CA82C /* OpenThreads */,
 				80916DC7D35F4DD5BBAB0F5C /* osg */,
@@ -10655,28 +10750,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/md2 -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/md2/CMakeScripts/osgdb_md2_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		066501C7A3B14C748E7CBF82 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX/CMakeScripts/osgdb_serializers_osgfx_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		076B83F3589A4A53B1BFCBF4 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim/CMakeScripts/osgdb_serializers_osgsim_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		084BA014673148C297450582 /* CMake Rules */ = {
@@ -10822,17 +10895,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osg -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osg/CMakeScripts/osgdb_deprecated_osg_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		35C65EA19BEA45C9B5A7292F /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText/CMakeScripts/osgdb_serializers_osgtext_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		3BCB96FA670B4577A885571F /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -10886,17 +10948,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/vtf -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/vtf/CMakeScripts/osgdb_vtf_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		4B8D8CDEB9FE4865BED03CEF /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgTerrain -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/deprecated-dotosg/osgTerrain/CMakeScripts/osgdb_deprecated_osgterrain_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		4C7E858F0E8846C5801168DB /* CMake PostBuild Rules */ = {
@@ -10976,17 +11027,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/3dc -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/3dc/CMakeScripts/osgdb_3dc_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		7152BD578762423691B7D895 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow/CMakeScripts/osgdb_serializers_osgshadow_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		7F7D14884094464294A2F1D9 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -10996,17 +11036,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/txf -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/txf/CMakeScripts/osgdb_txf_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		7FA078257268413F82585FA8 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation/CMakeScripts/osgdb_serializers_osganimation_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		8F7B7DCA53D04C8B84667E64 /* CMake PostBuild Rules */ = {
@@ -11029,17 +11058,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/normals -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/normals/CMakeScripts/osgdb_normals_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		93EA2BD3EF7E43ACA587933C /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume/CMakeScripts/osgdb_serializers_osgvolume_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		9695A2EF4B4F45E48BF303AD /* CMake PostBuild Rules */ = {
@@ -11185,17 +11203,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/lwo -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/lwo/CMakeScripts/osgdb_lwo_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		B49BAAA9C9CA432EA79E7EB9 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg/CMakeScripts/osgdb_serializers_osg_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		B7A1FC008B9C4064BE54FC59 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11216,17 +11223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/rgb -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/rgb/CMakeScripts/osgdb_rgb_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		BE2A3AFCA4934E4B90F7D94F /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA/CMakeScripts/osgdb_serializers_osgga_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		C66EB699C68C4851A90CCFBF /* CMake PostBuild Rules */ = {
@@ -11273,28 +11269,6 @@
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/bvh -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/bvh/CMakeScripts/osgdb_bvh_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		D4F3748899144D03844DBC48 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain/CMakeScripts/osgdb_serializers_osgterrain_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		DCFD8906308C436895CD7387 /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator/CMakeScripts/osgdb_serializers_osgmanipulator_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
 		E02B4DE517644E34BE78F012 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -11315,17 +11289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/tgz -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgPlugins/tgz/CMakeScripts/osgdb_tgz_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		E285434147074AEB8490B29F /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle -f /Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle/CMakeScripts/osgdb_serializers_osgparticle_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
 		F390791C92194BA5AE5ACBF8 /* CMake PostBuild Rules */ = {
@@ -13540,6 +13503,66 @@
 			target = E8C911DE90584444801A4CEC /* osgdb_3ds */;
 			targetProxy = 410B7C421644C7F90047404C /* PBXContainerItemProxy */;
 		};
+		41A60CA0164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0042D3CEC4B4E35B20EDCC2 /* osgdb_serializers_osg */;
+			targetProxy = 41A60C9F164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CA2164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B7007A0B794917AC588E80 /* osgdb_serializers_osganimation */;
+			targetProxy = 41A60CA1164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CA4164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01A620D4673544C99FCA1999 /* osgdb_serializers_osgfx */;
+			targetProxy = 41A60CA3164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CA6164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDA0793487D48C3ABD8F36B /* osgdb_serializers_osgmanipulator */;
+			targetProxy = 41A60CA5164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CA8164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F5865ABC294783A7FC9713 /* osgdb_serializers_osgparticle */;
+			targetProxy = 41A60CA7164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CAA164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5374D5A76EF04724AA824104 /* osgdb_serializers_osgsim */;
+			targetProxy = 41A60CA9164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CAC164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D35AA0F4A094FCC985B3C42 /* osgdb_serializers_osgshadow */;
+			targetProxy = 41A60CAB164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CAE164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0819DA91F4AD4776BF70477E /* osgdb_serializers_osgga */;
+			targetProxy = 41A60CAD164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CB0164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CD85516696434F9EBE9B95 /* osgdb_serializers_osgtext */;
+			targetProxy = 41A60CAF164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CB2164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED4EB673DE243199E6D4F9D /* osgdb_serializers_osgvolume */;
+			targetProxy = 41A60CB1164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CB4164B50A900F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643D17A51AAA42338CB4D63C /* osgdb_serializers_osgterrain */;
+			targetProxy = 41A60CB3164B50A900F2A9CE /* PBXContainerItemProxy */;
+		};
+		41A60CB6164B50C300F2A9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A60C99164B508700F2A9CE /* Serializers */;
+			targetProxy = 41A60CB5164B50C300F2A9CE /* PBXContainerItemProxy */;
+		};
 		4447B742084C40F6AB23AA29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C34FC9C06AE044329027C8D6 /* osgdb_dds */;
@@ -13871,46 +13894,30 @@
 		00178F33A43A4E6BAAB13056 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgvolumed;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -14297,91 +14304,60 @@
 		08224805ED7844BFBC77CE50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osggad;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
 		085BD9E64C5441EFB1671E45 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgvolumes;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -14556,45 +14532,30 @@
 		0ABF0B9B0DA4449DBB5E25FC /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgshadowrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -14882,92 +14843,60 @@
 		1074253D208F4226A02F0E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osganimationd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
 		12D3765B90EB4896BE93744A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgshadowd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -15233,46 +15162,30 @@
 		192C61F41A784821A6ADB38E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgfxd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -15830,45 +15743,30 @@
 		20C7B296E944409387433D91 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgvolumerd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -16176,46 +16074,30 @@
 		262403FFB4934487BA6EF161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgterraind;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -16268,45 +16150,30 @@
 		26E4B5AB6DB940E98CAE9FC7 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgtexts;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -16947,45 +16814,30 @@
 		3092AAC6B564414D8CE4FF5E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgterrainrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -17283,45 +17135,30 @@
 		3302756019CE48398434848D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgshadow;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -18120,45 +17957,30 @@
 		3E6BBBFA78F1428B9DC925B2 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osganimationrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -18451,6 +18273,34 @@
 			};
 			name = RelWithDebInfo;
 		};
+		41A60C9B164B508700F2A9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41A60C9C164B508700F2A9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41A60C9D164B508700F2A9CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = MinSizeRel;
+		};
+		41A60C9E164B508700F2A9CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = RelWithDebInfo;
+		};
 		41A9311833C24C3F9D4F32DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -18546,45 +18396,30 @@
 		4500F51E825049298D634653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgfx;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -18682,45 +18517,30 @@
 		45C2760567154F7B84ACC35C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgparticlerd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -18850,46 +18670,30 @@
 		499FBDE25BE448869B78CDC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgmanipulatord;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -18975,90 +18779,60 @@
 		4AEF9DDE780B4103A6177A5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osganimation;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
 		4C180951BBBE4E1B9F37FFCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgsim;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -19110,45 +18884,30 @@
 		4C57C348282940BAA3A317CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgmanipulator;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -19321,46 +19080,30 @@
 		514CA65ADDEE4868B580D74D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgsimd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -19580,45 +19323,30 @@
 		53933F726B7344F1A93FC1C1 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgfxrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -20281,45 +20009,30 @@
 		601EC607D701412BBB46AE85 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgtextrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -20724,45 +20437,30 @@
 		66CE3A81B06940FAB1C05DF9 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osggard;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -21481,45 +21179,30 @@
 		79DD80F82BB34FE5BF8CC3D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgtext;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -21951,45 +21634,30 @@
 		838876C4DB144DC19C904646 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgfxs;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgFX";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -22149,45 +21817,30 @@
 		86FD10FA9A9B41B4920B01CB /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -22624,45 +22277,30 @@
 		8C2C699AF5CB488C9B949FA7 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgterrains;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -23026,45 +22664,30 @@
 		90CC281E1C624B9CA84253E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgvolume;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgVolume";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -23251,45 +22874,30 @@
 		967FCBB33D38442D80743E2B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgs;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -24219,46 +23827,30 @@
 		A4E77766F6DA469EA217147B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgparticled;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -24310,45 +23902,30 @@
 		A6DE06C7DFCD445289DFAF08 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgshadows;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgShadow";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -25300,45 +24877,30 @@
 		B658EB2DE69845E69D0CE2FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgterrain;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgTerrain";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -25609,45 +25171,30 @@
 		BABE116D87AE4AE5816FB09D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osg;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -25687,46 +25234,30 @@
 		BD7C07DBCC164697945E0D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgtextd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgText";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -26266,45 +25797,30 @@
 		C724178E3C0B48369CEC68DF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osganimations;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgAnimation";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -26810,46 +26326,30 @@
 		D2A2FAAAC9274969AA6267F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-D_DEBUG";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-					"-D_DEBUG",
-				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osg";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -27004,90 +26504,60 @@
 		D861875208734A3C929886DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgga;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
 		D946405107C14FCEB0D48321 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgsims;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -27263,45 +26733,30 @@
 		DD222639A520408C8D4116E6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgmanipulators;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -27522,45 +26977,30 @@
 		E2080740EFA54C538EA03069 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osggas;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgGA";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -27781,45 +27221,30 @@
 		E6C82E6CDA8B4DB0A9843AAB /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgsimrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgSim";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -28164,45 +27589,30 @@
 		EE215DA93EFE41638B94534E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgparticle;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};
@@ -28254,45 +27664,30 @@
 		EF8961CA264841BDB6D600A0 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgmanipulatorrd;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgManipulator";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = RelWithDebInfo;
 		};
@@ -28379,45 +27774,30 @@
 		F09E617ED8FF4CC2BF15D1B5 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				CONFIGURATION_BUILD_DIR = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/lib";
+				CONFIGURATION_BUILD_DIR = lib;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					OSG_LIBRARY_STATIC,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/include";
+				HEADER_SEARCH_PATHS = include;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-miphoneos-version-min=4.1",
-					"-mno-thumb",
-					"-arch",
-					armv6,
-					"-pipe",
-					"-no-cpp-precomp",
-				);
+				OTHER_CPLUSPLUSFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = osgdb_serializers_osgparticles;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccochran/Documents/dev/git-repositories/osg-fork/src/osgWrappers/serializers/osgParticle";
+				SYMROOT = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				WARNING_CFLAGS = "";
 			};
 			name = MinSizeRel;
 		};
@@ -29441,6 +28821,16 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
+		};
+		41A60C9A164B508700F2A9CE /* Build configuration list for PBXAggregateTarget "Serializers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A60C9B164B508700F2A9CE /* Debug */,
+				41A60C9C164B508700F2A9CE /* Release */,
+				41A60C9D164B508700F2A9CE /* MinSizeRel */,
+				41A60C9E164B508700F2A9CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		42A9412E3C5749C98615D3C8 /* Build configuration list for PBXNativeTarget "osgViewer" */ = {
 			isa = XCConfigurationList;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "410B7C2C1644C77A0047404C"
-               BuildableName = "iOS Essentials"
-               BlueprintName = "iOS Essentials"
+               BlueprintIdentifier = "41A60C99164B508700F2A9CE"
+               BuildableName = "Serializers"
+               BlueprintName = "Serializers"
                ReferencedContainer = "container:OpenSceneGraph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
