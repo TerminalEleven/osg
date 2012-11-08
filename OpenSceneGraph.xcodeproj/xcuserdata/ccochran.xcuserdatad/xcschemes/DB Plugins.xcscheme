@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D5A428061B724EFDACDF6D9A"
-               BuildableName = "ALL_BUILD"
-               BlueprintName = "ALL_BUILD"
+               BlueprintIdentifier = "41A60CB7164B6C0700F2A9CE"
+               BuildableName = "DB Plugins"
+               BlueprintName = "DB Plugins"
                ReferencedContainer = "container:OpenSceneGraph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6354AB43CB8497899FE8213"
-               BuildableName = "uninstall"
-               BlueprintName = "uninstall"
+               BlueprintIdentifier = "412FD5B2164B6E1B00CA6831"
+               BuildableName = "Build All"
+               BlueprintName = "Build All"
                ReferencedContainer = "container:OpenSceneGraph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

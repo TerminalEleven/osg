@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0AC033DFD32642F38AF49178"
-               BuildableName = "install"
-               BlueprintName = "install"
+               BlueprintIdentifier = "41A60C99164B508700F2A9CE"
+               BuildableName = "DB Serializers"
+               BlueprintName = "DB Serializers"
                ReferencedContainer = "container:OpenSceneGraph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

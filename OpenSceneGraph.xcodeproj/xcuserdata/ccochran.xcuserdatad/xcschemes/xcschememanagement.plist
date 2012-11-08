@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ALL_BUILD.xcscheme</key>
+		<key>Build All.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,37 +12,22 @@
 		<key>Core.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>94</integer>
+			<integer>1</integer>
+		</dict>
+		<key>DB Plugins.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DB Serializers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>OpenThreads.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
-		</dict>
-		<key>Serializers.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>97</integer>
-		</dict>
-		<key>SkyView Essentials.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>95</integer>
-		</dict>
-		<key>ZERO_CHECK.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>iOS Essentials.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>96</integer>
-		</dict>
-		<key>install.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>osg.xcscheme</key>
 		<dict>
@@ -489,11 +474,6 @@
 			<key>orderHint</key>
 			<integer>69</integer>
 		</dict>
-		<key>uninstall.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -607,12 +587,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>412FD5B2164B6E1B00CA6831</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>417890F093144CA8AE17BACF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>41A60C99164B508700F2A9CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41A60CB7164B6C0700F2A9CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
