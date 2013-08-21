@@ -165,60 +165,7 @@ typedef std::map<void*, unsigned int> TouchPointsIdMapping;
 
 - (unsigned int)computeTouchId: (UITouch*) touch 
 {
-    unsigned int result(0);
-    
-    if (!_touchPointsIdMapping) {
-        _lastTouchPointId = 0;
-        _touchPointsIdMapping = new TouchPointsIdMapping();
-    }
-    
-    switch([touch phase])
-    {
-    
-        case UITouchPhaseBegan:
-            {
-                TouchPointsIdMapping::iterator itr = _touchPointsIdMapping->find(touch);
-                // std::cout << "new: " << touch << " num: " << _touchPointsIdMapping->size() << " found: " << (itr != _touchPointsIdMapping->end()) << std::endl;
-                 
-                if (itr == _touchPointsIdMapping->end()) 
-                {
-                    (*_touchPointsIdMapping)[touch] = result = _lastTouchPointId;
-                    _lastTouchPointId++;
-                    break;
-                }
-               
-            }
-            // missing "break" by intention!
-        
-        case UITouchPhaseMoved:
-        case UITouchPhaseStationary:
-            {
-                result = (*_touchPointsIdMapping)[touch];
-            }
-            break;
-       
-        case UITouchPhaseEnded:
-        case UITouchPhaseCancelled:
-            {
-                TouchPointsIdMapping::iterator itr = _touchPointsIdMapping->find(touch);
-                // std::cout<< "remove: " << touch << " num: " << _touchPointsIdMapping->size() << " found: " << (itr != _touchPointsIdMapping->end()) << std::endl;
-                
-                if (itr != _touchPointsIdMapping->end()) {
-                    result = itr->second;
-                    _touchPointsIdMapping->erase(itr);
-                }
-                if(_touchPointsIdMapping->size() == 0) {
-                    _lastTouchPointId = 0;
-                }
-                // std::cout<< "remove: " << touch << " num: " << _touchPointsIdMapping->size() << std::endl;
-            }
-            break;
-            
-        default:
-            break;
-    }
-        
-    return result;
+    return (unsigned int)touch;
 }
 
 
