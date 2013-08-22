@@ -61,7 +61,7 @@ void PointSprite::apply(osg::State& state) const
     const Point::Extensions* extensions = Point::getExtensions(state.getContextID(),true);
     extensions->glPointParameteri(GL_POINT_SPRITE_COORD_ORIGIN,_coordOriginMode);
 
-#elif defined( OSG_GLES1_AVAILABLE )
+#elif defined( OSG_GLES1_AVAILABLE ) || defined( OSG_GLES2_AVAILABLE )
     
     if(!isPointSpriteSupported(state.getContextID())) return;
     
