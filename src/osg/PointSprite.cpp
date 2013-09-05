@@ -45,7 +45,7 @@ bool PointSprite::checkValidityOfAssociatedModes(osg::State& state) const
 
     bool modeValid = isPointSpriteSupported(state.getContextID());
 
-#if defined( OSG_GLES1_AVAILABLE )
+#if defined( OSG_GLES1_AVAILABLE ) || defined( OSG_GLES2_AVAILABLE )
     state.setModeValidity(GL_POINT_SPRITE_OES, modeValid);
 #else
     state.setModeValidity(GL_POINT_SPRITE_ARB, modeValid);
