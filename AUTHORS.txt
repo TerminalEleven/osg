@@ -1,6 +1,6 @@
-OpenSceneGraph Library 3.2.0
+OpenSceneGraph Library 3.2.1
 
-511 Contributors:
+516 Contributors:
 
 Firstname Surname
 -----------------
@@ -13,8 +13,8 @@ Marco Jez
 Farshid Lashkari
 Wang Rui
 Jean-Sébastien Guay
-Mike Weiblen
 Ulrich Hertlein
+Mike Weiblen
 Eric Wing
 Sukender 
 Cedric Pinson
@@ -40,14 +40,14 @@ Jeremy Moles
 Jason Beverage
 Jan Peciva
 J.P. Delport
+Alberto Luaces
 Mattias Helsing
 Magnus Kessler
 David Fries
 Andy Skinner
-Paul Melis
-Alberto Luaces
-Luc Frauciel
 Tom Jolley
+Paul Melis
+Luc Frauciel
 Pavel Moloshtan
 Brad Christiansen
 Olaf Flebbe
@@ -59,12 +59,14 @@ Per Fahlberg
 Norman Vine
 Terry Welsh
 Serge Lages
+Romano José Magacho da Silva
 Lionel Lagarde
 Chris Denham
 Alberto Farre
 Sherman Wilcox
 Robert Michael
 Mourad Boufarguine
+Aurelien Albert
 André Garneau
 Adrian Egli
 Ruben Lopez
@@ -74,9 +76,7 @@ Torben Dannhauer
 Glenn Waldron
 Gideon May
 Don Tidrow
-Aurelien Albert
 Stephane Lamoliatte
-Romano José Magacho da Silva
 Michael Gronager
 Martin Naylor
 Joakim Simonsson
@@ -88,6 +88,7 @@ Andreas Ekstrand
 Mike Connell
 Melchior Franz
 Johannes Baeuerle
+Thomas Hogarth
 Riccardo Corsi
 Rafa Gaitan
 Neil Hughes
@@ -101,7 +102,6 @@ Cory Riddell
 Chuck Seberino
 Boris Bralo
 Yefei He
-Thomas Hogarth
 Sondra Iverson
 Simon Julier
 Rune Schmidt Jensen
@@ -154,9 +154,9 @@ Alexander Sinditskiy
 Alexander Irion
 Toshiyuki Takahei
 Sebastien Grignard
+Sebastian Messerschmidt
 Ryan Kawicki
 Rudolf Wiedemann
-Romano Magacho
 Mikhail Izmestev
 Maria Ten
 Liang Aibin
@@ -181,7 +181,6 @@ Tugkan Calapoglu
 Tim Daoust
 Sohey Yamamoto
 Sergey Leontyev
-Sebastian Messerschmidt
 Santosh Gaikwad
 Ryan Pavlik
 Robert Milharcic
@@ -194,6 +193,7 @@ Mattias Linde
 Mark Sciabica
 Marcin Prus
 Lee Butler
+Lars Nilsson
 Konstantin Sinitsyn
 Ken Sewell
 Julian Ortiz
@@ -259,7 +259,6 @@ Martijn Kragtwijk
 Marius Heise
 Marcin Hajder
 Lilith Bryant
-Lars Nilsson
 Kristofer Tingdahl
 Kevin Moiule
 Keith Steffen
@@ -279,6 +278,7 @@ Guy Volckaert
 Gustavo Wagner
 Guillaume Taze
 Guillaume Chouvenc
+Giuseppe Donvito
 Gill Peacegood
 Gerrick Bivins
 George Tarantilis
@@ -296,6 +296,8 @@ Claus Scheiblauer
 Christophe Loustaunau
 Christian Ruzicka
 Brad Anderegg
+Björn Hein
+Björn Blissing
 Aric Aumann
 Andrew Sampson
 Andrew Lorino
@@ -334,6 +336,7 @@ Simon Buckley
 Sid Byce
 Shuxing Xiao
 Shane Arnott
+Sergey Kurdakov
 Sebastien Kuntz
 Ruth Lang
 Ruben Smelik
@@ -411,7 +414,6 @@ Lewis Harmon
 Leigh Stivers
 Laurence Muller
 Laura Cerritelli
-Lars Nillson
 Kyle Centers
 Kristopher Bixler
 Konstantin Matveyev
@@ -472,6 +474,7 @@ Duvan Cope
 Duncan Cavens
 Drew Whitehouse
 Douglas A. Pouk
+Dmitry Marakasov
 Dean Iverson
 David Jung
 Danny Valente
@@ -479,9 +482,11 @@ Daniel Stien
 Dan Minor
 César L. B. Silveira
 Cyril Brulebois
+Colin Cochran
 Clay Fowler
 Chuck Sembroski
 Christopher Blaesius
+Christopher Baker
 Christophe Herreman
 Christian Noon
 Christian Kaser
@@ -493,8 +498,6 @@ Bruno Herbelin
 Brian Keener
 Brandon Hamm
 Bora Utka
-Björn Hein
-Bjorn Blissing
 Bill Prendergast
 Bernardt Duvenhage
 Benoit Laniel
@@ -503,6 +506,7 @@ Ben van Basten
 Bart Gallet
 Axel Volley
 Anthousis Andreadis
+Anish Thomas
 Andy Preece
 Andrew Reyonolds
 Andreas Roth
@@ -514,4 +518,5 @@ Alberto Jaspe
 Alan Purvis
 Alan Ott
 Alan Harris
+Adrien Grandemange
 Adam Richard
